@@ -25,13 +25,13 @@ async def _(event):
         usname = replied_user.user.username
         idd = reply_message.from_id
         if idd==1035034432:
-            await event.edit("This is My Master\nI can't hack my master's Account")
+            await event.edit("This is My Master\nI can't Santet my master's ")
         else:
-            await event.edit("Hacking..")
+            await event.edit("Santet Online..")
             animation_chars = [
         
-            "`Connecting To Hacked Private Server...`",
-            "`Target Selected.`",
+            "`Connecting To Santet Online...`",
+            "`Target Ditemukan.`",
             "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
@@ -40,7 +40,7 @@ async def _(event):
             "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
             "`Hacking... 100%\n█████████HACKED███████████ `",
-            f"`Targeted Account Hacked...\n\nPay 69$ To` {DEFAULTUSER} . `To Remove this hack..`"
+            f"`Santet Done...\n\nPay 69$ To` {DEFAULTUSER} . `To Remove Santet ..`"
             ]
             for i in animation_ttl:
                 await asyncio.sleep(animation_interval)
